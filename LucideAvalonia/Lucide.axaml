@@ -4,22 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:system="clr-namespace:System;assembly=System.Runtime"
              xmlns:lucideAvalonia="clr-namespace:LucideAvalonia"
-             Width="24" Height="24"
              x:Class="LucideAvalonia.Lucide">
 
     <UserControl.Resources>
         <ResourceDictionary>
-            
             <SolidColorBrush x:Key="StrokeBrushLucide" Color="#F56565" /> <!-- StrokeBrush -->
             <system:Double x:Key="StrokeThicknessLucide">2</system:Double> <!-- StrokeThickness -->
-            
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceInclude Source="avares://LucideAvalonia/Lucide/ResourcesIcons.axaml"/> <!-- Icons (DrawingImage) -->
-            </ResourceDictionary.MergedDictionaries>
-            
         </ResourceDictionary>
     </UserControl.Resources>
 
-    <Image Source="{Binding IconSource, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type lucideAvalonia:Lucide}}}"/>
-    
+    <Image Source="{Binding IconSource, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type lucideAvalonia:Lucide}}}" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 </UserControl>

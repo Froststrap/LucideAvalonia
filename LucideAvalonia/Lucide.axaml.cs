@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
+using Avalonia.Styling;
 using LucideAvalonia.Enum;
 
 namespace LucideAvalonia;
@@ -67,44 +68,57 @@ public partial class Lucide : UserControl
     protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)
     {
         base.OnPropertyChanged(change);
-
-        // Check which property has changed and call the appropriate update method
-        if (change.Property == IconProperty)
+        if (change.Property == IconProperty ||
+            change.Property == StrokeBrushProperty ||
+            change.Property == StrokeThicknessProperty)
         {
-            var resource = Resources.MergedDictionaries.FirstOrDefault() as ResourceDictionary;
-            if (resource != null && change.NewValue is LucideIconNames iconName)
+            UpdateIcon();
+        }
+    }
+
+    private void UpdateIcon()
+    {
+        var key = Icon.ToString();
+        if (Application.Current?.TryGetResource(key, ThemeVariant.Default, out var value) == true &&
+            value is DrawingImage drawing)
+        {
+            IconSource = CloneDrawing(drawing);
+        }
+        else
+        {
+            IconSource = null;
+        }
+    }
+
+    private DrawingImage CloneDrawing(DrawingImage original)
+    {
+        if (original.Drawing is not DrawingGroup originalGroup)
+            return original;
+
+        var newGroup = new DrawingGroup();
+        foreach (var child in originalGroup.Children)
+        {
+            if (child is GeometryDrawing geo)
             {
-                IconSource = resource[iconName.ToString()];
-                // Re-apply stroke properties to the new DrawingImage (only if explicitly set)
-                if (StrokeBrush != null)
-                    UpdateStrokeBrush();
-                if (StrokeThickness > 0)
-                    UpdateStrokeThickness();
+                var newGeo = geo.Geometry?.Clone();
+                if (newGeo == null) continue;
+
+                var brush = StrokeBrush ?? Brushes.Black;
+                var newPen = new Pen(brush, StrokeThickness);
+
+                var newDrawing = new GeometryDrawing
+                {
+                    Geometry = newGeo,
+                    Pen = newPen,
+                    Brush = geo.Brush
+                };
+                newGroup.Children.Add(newDrawing);
+            }
+            else
+            {
+                newGroup.Children.Add(child);
             }
         }
-        else if (change.Property == StrokeBrushProperty)
-            UpdateStrokeBrush();
-        else if (change.Property == StrokeThicknessProperty) UpdateStrokeThickness();
-    }
-
-    // Method to update the stroke brush for the icon
-    private void UpdateStrokeBrush()
-    {
-        if (IconSource is not DrawingImage { Drawing: DrawingGroup drawingGroup }) return;
-
-        var strokeBrush = StrokeBrush;
-        foreach (var drawing in drawingGroup.Children)
-            if (drawing is GeometryDrawing { Pen: Pen pen })
-                pen.Brush = strokeBrush;
-    }
-
-    // Method to update the stroke thickness for the icon
-    private void UpdateStrokeThickness()
-    {
-        if (IconSource is not DrawingImage { Drawing: DrawingGroup drawingGroup }) return;
-
-        foreach (var drawing in drawingGroup.Children)
-            if (drawing is GeometryDrawing { Pen: Pen pen })
-                pen.Thickness = StrokeThickness;
+        return new DrawingImage(newGroup);
     }
 }
