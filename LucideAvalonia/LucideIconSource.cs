@@ -6,7 +6,7 @@ using LucideAvalonia.Enum;
 
 namespace LucideAvalonia
 {
-    public class LucideIconSource : ImageIconSource
+    public class LucideIconSource : FAImageIconSource
     {
         public static readonly StyledProperty<LucideIconNames> IconProperty =
             AvaloniaProperty.Register<LucideIconSource, LucideIconNames>(nameof(Icon));
