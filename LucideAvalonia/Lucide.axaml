@@ -8,8 +8,12 @@
 
     <UserControl.Resources>
         <ResourceDictionary>
-            <SolidColorBrush x:Key="StrokeBrushLucide" Color="#F56565" /> <!-- StrokeBrush -->
-            <system:Double x:Key="StrokeThicknessLucide">2</system:Double> <!-- StrokeThickness -->
+
+            <SolidColorBrush x:Key="StrokeBrushLucide" Color="#F56565" />
+            <!-- StrokeBrush -->
+            <system:Double x:Key="StrokeThicknessLucide">2</system:Double>
+            <!-- StrokeThickness -->
+
         </ResourceDictionary>
     </UserControl.Resources>
 

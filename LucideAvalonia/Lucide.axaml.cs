@@ -15,13 +15,11 @@ public partial class Lucide : UserControl
         InitializeComponent();
     }
 
-    // Initialize components
     private void InitializeComponent()
     {
         AvaloniaXamlLoader.Load(this);
     }
 
-    // Property for setting the icon source
     public static readonly StyledProperty<object?> IconSourceProperty =
         AvaloniaProperty.Register<Lucide, object?>("IconSource");
 
@@ -31,7 +29,6 @@ public partial class Lucide : UserControl
         set => SetValue(IconSourceProperty, value);
     }
 
-    // Property for setting the icon name
     public static readonly StyledProperty<LucideIconNames> IconProperty =
         AvaloniaProperty.Register<Lucide, LucideIconNames>("Icon");
 
@@ -41,7 +38,6 @@ public partial class Lucide : UserControl
         set => SetValue(IconProperty, value);
     }
 
-    // Property for setting the icon stroke brush
     public static readonly StyledProperty<IBrush?> StrokeBrushProperty =
         AvaloniaProperty.Register<Lucide, IBrush?>(
             nameof(StrokeBrush),
@@ -53,21 +49,19 @@ public partial class Lucide : UserControl
         set => SetValue(StrokeBrushProperty, value);
     }
 
-    // Define a dependency property for the stroke thickness
     public static readonly StyledProperty<double> StrokeThicknessProperty =
         AvaloniaProperty.Register<Lucide, double>("StrokeThickness");
 
-    // Property to get or set the stroke thickness
     public double StrokeThickness
     {
         get => GetValue(StrokeThicknessProperty);
         set => SetValue(StrokeThicknessProperty, value);
     }
 
-    // Override the OnPropertyChanged method to handle property changes
     protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)
     {
         base.OnPropertyChanged(change);
+
         if (change.Property == IconProperty ||
             change.Property == StrokeBrushProperty ||
             change.Property == StrokeThicknessProperty)
@@ -104,7 +98,13 @@ public partial class Lucide : UserControl
                 if (newGeo == null) continue;
 
                 var brush = StrokeBrush ?? Brushes.Black;
-                var newPen = new Pen(brush, StrokeThickness);
+                var thickness = StrokeThickness > 0 ? StrokeThickness : (geo.Pen?.Thickness ?? 2);
+                var dashStyle = geo.Pen?.DashStyle;
+                var lineCap = geo.Pen?.LineCap ?? PenLineCap.Round;
+                var lineJoin = geo.Pen?.LineJoin ?? PenLineJoin.Round;
+                var miterLimit = geo.Pen?.MiterLimit ?? 10;
+
+                var newPen = new Pen(brush, thickness, dashStyle, lineCap, lineJoin, miterLimit);
 
                 var newDrawing = new GeometryDrawing
                 {
@@ -112,6 +112,7 @@ public partial class Lucide : UserControl
                     Pen = newPen,
                     Brush = geo.Brush
                 };
+
                 newGroup.Children.Add(newDrawing);
             }
             else
@@ -119,6 +120,7 @@ public partial class Lucide : UserControl
                 newGroup.Children.Add(child);
             }
         }
+
         return new DrawingImage(newGroup);
     }
 }
