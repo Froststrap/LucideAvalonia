@@ -1241,67 +1241,15 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Angry">
+    <DrawingImage x:Key="Angle">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 16s-1.5-2-4-2-4 2-4 2">
+                <GeometryDrawing Geometry="F1 M3 3v16a2 2 0 0 0 2 2h16">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M7.5 8 10 9">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m14 9 2.5-1">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M9 10h.01">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M15 10h.01">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
-    <DrawingImage x:Key="Annoyed">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 15h8">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 9h2">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14 9h2">
+                <GeometryDrawing Geometry="F1 M3 11a10 10 0 0 1 10 10">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -2689,6 +2637,103 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="AudioLinesOff">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 10v11">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M10 3v1.35">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 14v1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 8v.35">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 5v7.35">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m2 2 20 20">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 6v11">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="AudioLinesX">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 3v18">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 8v6.35">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m17 17 5 5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 5v8.1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m22 17-5 5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 6v11">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="AudioWaveform">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -3588,27 +3633,27 @@
     <DrawingImage x:Key="Barrel">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M10 3a41 41 0 0 0 0 18">
+                <GeometryDrawing Geometry="F1 M10 3a41 41 0 000 18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14 3a41 41 0 0 1 0 18">
+                <GeometryDrawing Geometry="F1 M14 3a41 41 0 010 18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z">
+                <GeometryDrawing Geometry="F1 M16.997 21a2 2 0 001.68-.92 15.25 15.25 0 000-16.16 2 2 0 00-1.68-.92h-10a2 2 0 00-1.681.92 15.25 15.25 0 000 16.16 2 2 0 001.681.92z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3.84 17h16.32">
+                <GeometryDrawing Geometry="F1 M3.54 16h16.914">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3.84 7h16.32">
+                <GeometryDrawing Geometry="F1 M3.54 8h16.914">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -5405,12 +5450,12 @@
     <DrawingImage x:Key="BookOpen">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M12 7v14">
+                <GeometryDrawing Geometry="F1 M12 5v16">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                <GeometryDrawing Geometry="F1 M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -5421,7 +5466,7 @@
     <DrawingImage x:Key="BookOpenCheck">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M12 21V7">
+                <GeometryDrawing Geometry="F1 M12 5v16">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -5431,7 +5476,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3">
+                <GeometryDrawing Geometry="F1 M22 6V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2h4.001A2 2 0 0022 17v-1.344">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -5442,32 +5487,32 @@
     <DrawingImage x:Key="BookOpenText">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M12 7v14">
+                <GeometryDrawing Geometry="F1 M12 5v16">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 12h2">
+                <GeometryDrawing Geometry="F1 M16 13h2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 8h2">
+                <GeometryDrawing Geometry="F1 M16 9h2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                <GeometryDrawing Geometry="F1 M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M6 12h2">
+                <GeometryDrawing Geometry="F1 M6 13h2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M6 8h2">
+                <GeometryDrawing Geometry="F1 M6 9h2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -6637,6 +6682,88 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="Broom">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M13.5 10.5 22 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m5 18 2-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m7.699 10.7 5.602 5.601">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="BroomSparkles">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M11 2v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 3h-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M13.5 10.5 22 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14.734 13.841a2 2 0 00-.314-2.42L12.58 9.58a2 2 0 00-2.421-.314l-7.657 4.461A1 1 0 002.3 15.3l6.403 6.403a1 1 0 001.571-.204z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M20 15v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 17h-4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M4 4v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m5 18 2-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 6H2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m7.699 10.7 5.602 5.601">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="Brush">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -7331,12 +7458,12 @@
     <DrawingImage x:Key="Calendar">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7346,10 +7473,10 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7360,22 +7487,22 @@
     <DrawingImage x:Key="Calendar1">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M11 14h1v4">
+                <GeometryDrawing Geometry="F1 M11 13h1v4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7385,7 +7512,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -7394,32 +7521,32 @@
     <DrawingImage x:Key="CalendarArrowDown">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 m14 18 4 4 4-4">
+                <GeometryDrawing Geometry="F1 m14 17 4 4 4-4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M18 14v8">
+                <GeometryDrawing Geometry="F1 M18 13v8">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 11.354V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.343">
+                <GeometryDrawing Geometry="F1 M21 10.354V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.343">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7430,32 +7557,32 @@
     <DrawingImage x:Key="CalendarArrowUp">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 m14 18 4-4 4 4">
+                <GeometryDrawing Geometry="F1 m14 17 4-4 4 4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M18 22v-8">
+                <GeometryDrawing Geometry="F1 M18 21v-8">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9">
+                <GeometryDrawing Geometry="F1 M21 10.343V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h9">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7466,12 +7593,12 @@
     <DrawingImage x:Key="CalendarCheck">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7481,15 +7608,15 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m9 16 2 2 4-4">
+                <GeometryDrawing Geometry="F1 m9 15 2 2 4-4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7500,27 +7627,57 @@
     <DrawingImage x:Key="CalendarCheck2">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M 19 3 L 5 3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M 21 13 L 21 5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8">
+                <GeometryDrawing Geometry="F1 M 21 5 A2 2 0 0 0 19 3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M 3 19 A2 2 0 0 0 5 21">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m16 20 2 2 4-4">
+                <GeometryDrawing Geometry="F1 M 3 5 L 3 19">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M 5 3 A2 2 0 0 0 3 5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m16 19 2 2 4-4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 2v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 9h18">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M5 21 L12.5 21">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7536,22 +7693,22 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5">
+                <GeometryDrawing Geometry="F1 M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h5">
+                <GeometryDrawing Geometry="F1 M3 9h5.859">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7580,7 +7737,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7605,27 +7762,27 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m20.772 16.852.924-.383">
+                <GeometryDrawing Geometry="F1 m20.773 16.852.924-.383">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m20.772 19.148.924.383">
+                <GeometryDrawing Geometry="F1 m20.773 19.148.924.383">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 10.592V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6">
+                <GeometryDrawing Geometry="F1 M21 10.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h5.5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7644,12 +7801,12 @@
     <DrawingImage x:Key="CalendarDays">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7659,40 +7816,40 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 14h.01">
+                <GeometryDrawing Geometry="F1 M8 13h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M12 14h.01">
+                <GeometryDrawing Geometry="F1 M12 13h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 14h.01">
+                <GeometryDrawing Geometry="F1 M16 13h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 18h.01">
+                <GeometryDrawing Geometry="F1 M8 17h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M12 18h.01">
+                <GeometryDrawing Geometry="F1 M12 17h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 18h.01">
+                <GeometryDrawing Geometry="F1 M16 17h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7703,27 +7860,22 @@
     <DrawingImage x:Key="CalendarFold">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M15 22v-5a1 1 0 0 1 1-1h5">
+                <GeometryDrawing Geometry="F1 M21 15V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h10v-5a1 1 0 011-1za2.4 2.4 0 01-.706 1.706l-3.588 3.588A2.4 2.4 0 0115 21">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7734,27 +7886,27 @@
     <DrawingImage x:Key="CalendarHeart">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M12.127 22H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.125">
+                <GeometryDrawing Geometry="F1 M12.127 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.125">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14.62 18.8A2.25 2.25 0 1 1 18 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z">
+                <GeometryDrawing Geometry="F1 M14.62 17.8A2.25 2.25 0 1118 14.836a2.25 2.25 0 113.38 2.966l-2.626 2.856a.998.998 0 01-1.507 0z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7765,27 +7917,27 @@
     <DrawingImage x:Key="CalendarMinus">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M16 19h6">
+                <GeometryDrawing Geometry="F1 M16 18h6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 15V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5">
+                <GeometryDrawing Geometry="F1 M21 14V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7796,12 +7948,12 @@
     <DrawingImage x:Key="CalendarMinus2">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7811,15 +7963,15 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M10 16h4">
+                <GeometryDrawing Geometry="F1 M10 15h4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7830,32 +7982,32 @@
     <DrawingImage x:Key="CalendarOff">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 15.5V6a2 2 0 0 0-2-2H9.5">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h7">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 10h-5.5">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 m2 2 20 20">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 9h-5.5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 9h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3.586 3.586A2 2 0 003 5v14a2 2 0 002 2h14a2 2 0 001.414-.586">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8.656 3H19a2 2 0 012 2v10.344">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7866,32 +8018,32 @@
     <DrawingImage x:Key="CalendarPlus">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M16 19h6">
+                <GeometryDrawing Geometry="F1 M16 18h6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M19 16v6">
+                <GeometryDrawing Geometry="F1 M19 15v6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5">
+                <GeometryDrawing Geometry="F1 M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7902,12 +8054,12 @@
     <DrawingImage x:Key="CalendarPlus2">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7917,20 +8069,20 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M10 16h4">
+                <GeometryDrawing Geometry="F1 M10 15h4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M12 14v4">
+                <GeometryDrawing Geometry="F1 M12 13v4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7946,40 +8098,40 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M17 14h-6">
+                <GeometryDrawing Geometry="F1 M17 13h-6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M13 18H7">
+                <GeometryDrawing Geometry="F1 M13 17H7">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M7 14h.01">
+                <GeometryDrawing Geometry="F1 M7 13h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M17 18h.01">
+                <GeometryDrawing Geometry="F1 M17 17h.01">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -7990,27 +8142,27 @@
     <DrawingImage x:Key="CalendarSearch">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25">
+                <GeometryDrawing Geometry="F1 M21 10.69V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.25">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m22 22-1.875-1.875">
+                <GeometryDrawing Geometry="F1 m22 21-1.875-1.875">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8020,7 +8172,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="3" RadiusY="3" Center="18,18" />
+                        <EllipseGeometry RadiusX="3" RadiusY="3" Center="18,17" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -8034,17 +8186,17 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m11 14 1.535-1.605a5 5 0 0 1 8 1.5">
+                <GeometryDrawing Geometry="F1 m11 14 1.535-1.605a5 5 0 018 1.5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m21 18-1.535 1.605a5 5 0 0 1-8-1.5">
+                <GeometryDrawing Geometry="F1 m21 18-1.535 1.605a5 5 0 01-8-1.5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8054,17 +8206,17 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3">
+                <GeometryDrawing Geometry="F1 M21 8.517V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.517">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h4">
+                <GeometryDrawing Geometry="F1 M3 9h4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8075,12 +8227,12 @@
     <DrawingImage x:Key="CalendarX">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8090,20 +8242,20 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m14 14-4 4">
+                <GeometryDrawing Geometry="F1 m14 13-4 4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m10 14 4 4">
+                <GeometryDrawing Geometry="F1 m10 13 4 4">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8114,32 +8266,32 @@
     <DrawingImage x:Key="CalendarX2">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M8 2v4">
+                <GeometryDrawing Geometry="F1 M16 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 2v4">
+                <GeometryDrawing Geometry="F1 m17 16 5 5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8">
+                <GeometryDrawing Geometry="F1 m17 21 5-5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 10h18">
+                <GeometryDrawing Geometry="F1 M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m17 22 5-5">
+                <GeometryDrawing Geometry="F1 M3 9h18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m17 17 5 5">
+                <GeometryDrawing Geometry="F1 M8 2v3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -8468,6 +8620,45 @@
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
                         <EllipseGeometry RadiusX="2" RadiusY="2" Center="17,17" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="CarBattery">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M14 13h4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 15v-4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 5v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 13h4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 5v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="2,7,20,12" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -10771,6 +10962,30 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="CircleEuro">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 9.4a4 4 0 1 0 0 5.2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 12h5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -13148,52 +13363,52 @@
     <DrawingImage x:Key="Columns3Cog">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5">
+                <GeometryDrawing Geometry="F1 M10.6 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m14.3 19.6 1-.4">
+                <GeometryDrawing Geometry="F1 m14.305 19.53.923-.382">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M15 3v7.5">
+                <GeometryDrawing Geometry="F1 M15 3v7.6">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m15.2 16.9-.9-.3">
+                <GeometryDrawing Geometry="F1 m15.229 16.852-.924-.383">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m16.6 21.7.3-.9">
+                <GeometryDrawing Geometry="F1 m16.852 15.228-.383-.923">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m16.8 15.3-.4-1">
+                <GeometryDrawing Geometry="F1 m16.852 20.772-.383.924">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m19.1 15.2.3-.9">
+                <GeometryDrawing Geometry="F1 m19.148 15.228.383-.923">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m19.6 21.7-.4-1">
+                <GeometryDrawing Geometry="F1 m19.53 21.696-.382-.924">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m20.7 16.8 1-.4">
+                <GeometryDrawing Geometry="F1 m20.773 16.852.922-.383">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 m21.7 19.4-.9-.3">
+                <GeometryDrawing Geometry="F1 m20.773 19.148.922.383">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -13475,7 +13690,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2">
+                <GeometryDrawing Geometry="F1 M7 21v-2a2 2 0 012-2h6a2 2 0 012 2v2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -13490,7 +13705,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="3" RadiusY="3" Center="12,11" />
+                        <EllipseGeometry RadiusX="3" RadiusY="3" Center="12,10" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
                 <GeometryDrawing>
@@ -13498,7 +13713,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -13512,7 +13727,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M17.915 22a6 6 0 0 0-12 0">
+                <GeometryDrawing Geometry="F1 M17.915 21a6 6 0 10-12 0">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -13527,7 +13742,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="4" RadiusY="4" Center="12,12" />
+                        <EllipseGeometry RadiusX="4" RadiusY="4" Center="12,11" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
                 <GeometryDrawing>
@@ -13535,7 +13750,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,4,18,18" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -15668,7 +15883,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="1" RadiusY="1" Center="12.1,12.1" />
+                        <EllipseGeometry RadiusX="1" RadiusY="1" Center="12,12" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -16192,6 +16407,25 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="Eject">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M4 13a1 1 0 0 1-.72-1.695l7.257-7.668a2 2 0 0 1 2.926 0l7.256 7.668A1 1 0 0 1 20 13z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="3,17,18,4" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="Ellipse">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -16353,16 +16587,6 @@
     <DrawingImage x:Key="EthernetPort">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3z">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M6 8v1">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 M10 8v1">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
@@ -16374,6 +16598,16 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 M18 8v1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M19 17a2 2 0 00-1.765 1.059l-.47.882A2 2 0 0115 20H9a2 2 0 01-1.765-1.059l-.47-.882A2 2 0 005 17H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v9a2 2 0 01-2 2z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 8v1">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -16630,6 +16864,226 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="FaceAngry">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 11V9.416">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M17 9a5 5 0 00-3 1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 9a5 5 0 013 1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 11V9.416">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 16a5 5 0 016.001 0">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceExpressionless">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M14 10h2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 10h2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 16h8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceGrinning">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.084 14.302a5.12 5.12 0 009.833 0 .24.24 0 00-.235-.302H7.32a.24.24 0 00-.235.302">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceNeutral">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 16h8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceSlightlyFrowning">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 16a5 5 0 016 0">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceSlightlySmiling">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M15 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16.472 15a6 6 0 01-8.943 0">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="FaceSlightlySmilingPlus">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M13.267 2.08a10 10 0 108.653 8.653">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M15 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 5h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16.472 15a6 6 0 01-8.943 0">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M19 2v6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 10V9">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="Factory">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -16691,7 +17145,7 @@
     <DrawingImage x:Key="Feather">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z">
+                <GeometryDrawing Geometry="F1 M14.086 18.412A2 2 0 0112.67 19H5v-7.672a2 2 0 01.586-1.414L11.75 3.75a6 6 0 118.49 8.49z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -16701,7 +17155,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M17.5 15H9">
+                <GeometryDrawing Geometry="F1 M17.488 15H9">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -16917,27 +17371,27 @@
     <DrawingImage x:Key="FileBox">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M14.5 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.8">
+                <GeometryDrawing Geometry="F1 M14 2v5a1 1 0 001 1h5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14 2v5a1 1 0 0 0 1 1h5">
+                <GeometryDrawing Geometry="F1 M14.692 22H18a2 2 0 002-2V8a2.4 2.4 0 00-.706-1.706l-3.588-3.588A2.4 2.4 0 0014 2H6a2 2 0 00-2 2v3.804">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M11.7 14.2 7 17l-4.7-2.8">
+                <GeometryDrawing Geometry="F1 M2.264 13.752 7 16.5l4.737-2.748">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 13.1a2 2 0 0 0-.999 1.76v3.24a2 2 0 0 0 .969 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01z">
+                <GeometryDrawing Geometry="F1 M2.995 13.014A2 2 0 002 14.744v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0012 18.26v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M7 17v5">
+                <GeometryDrawing Geometry="F1 M7 16.5V22">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -19983,41 +20437,6 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Frown">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 16s-1.5-2-4-2-4 2-4 2">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,9" EndPoint="9.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="15,9" EndPoint="15.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
     <DrawingImage x:Key="Fuel">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -22483,12 +22902,12 @@
     <DrawingImage x:Key="HdmiPort">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z">
+                <GeometryDrawing Geometry="F1 M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M7.5 12h9">
+                <GeometryDrawing Geometry="F1 M8 12h8">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -23009,27 +23428,6 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
-    <DrawingImage x:Key="History">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M3 3v5h5">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M12 7v5l4 2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -24649,37 +25047,49 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Laugh">
+    <DrawingImage x:Key="LayerArrowDown">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z">
+                <GeometryDrawing Geometry="F1 M12 10v10">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 10a1 1 0 01-.59.92l-5.077 2.308">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,9" EndPoint="9.01,9" />
-                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22.017 10.005a1 1 0 00-.597-.916l-8.59-3.91a2 2 0 00-1.66.001L2.6 9.08a1 1 0 00-.02 1.831l5.093 2.316">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="15,9" EndPoint="15.01,9" />
-                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m9 17 3 3 3-3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="LayerArrowUp">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 14V4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.674 10.774 2.58 13.09a1 1 0 000 1.822l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92 1 1 0 00-.59-.922l-5.078-2.308">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m9 7 3-3 3 3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -24714,6 +25124,63 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 m20 14.285 1.5.845a1 1 0 0 1 0 1.74L13 21.74a2 2 0 0 1-2 0l-8.5-4.87a1 1 0 0 1 0-1.74l1.5-.845">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="LayersArrowDown">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 7v15">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 12a1 1 0 00.58.91l5.093 2.316">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 12a1 1 0 01-.59.92l-5.077 2.308">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 10.37 2.6 7.91a1 1 0 010-1.831l8.57-3.9a2 2 0 011.66.001l8.59 3.91a1 1 0 010 1.831l-5.392 2.45">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m9 19 3 3 3-3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="LayersArrowUp">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 12V2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 17.002a1 1 0 00.58.91l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.674 8.774 2.58 11.09a1 1 0 000 1.822l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92 1 1 0 00-.59-.922l-5.078-2.308">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m9 5 3-3 3 3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -24816,6 +25283,36 @@
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
                         <RectangleGeometry RadiusX="1" RadiusY="1" Rect="3,16,7,5" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="LayoutFreeform">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="3,3,7,7" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="14,4,7,7" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="4,14,7,7" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -25533,6 +26030,40 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="ListClock">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M16 13v2.2l1.6 1">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 12h3.458">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 19h3.832">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 5h18">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="6" RadiusY="6" Center="16,15" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -26569,6 +27100,35 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="MailBadge">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M22 7.7V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8.25">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 12.996a1.94 1.94 0 0 1-1.03-.296L2 7">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m20.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="3" RadiusY="3" Center="19,14" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="MailCheck">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -27452,44 +28012,6 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Meh">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="8,15" EndPoint="16,15" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,9" EndPoint="9.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="15,9" EndPoint="15.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
     <DrawingImage x:Key="MemoryStick">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -28315,6 +28837,60 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="MicAudioLines">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 3v2.341">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 17v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 5v.341">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 5v13">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 10v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 6v11">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 21h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="10,9,4,8" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="MicOff">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -28347,6 +28923,50 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="MicSignal">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 17v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 11a6 6 0 00-3-5.197">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M2 11a10 10 0 015-8.662">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 11a10 10 0 00-5-8.662">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 11a6 6 0 013-5.197">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 21h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="10,9,4,8" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -28503,6 +29123,50 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="MidiPort">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 18h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M15 2.458V5a1 1 0 01-1 1h-4a1 1 0 01-1-1V2.458">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 16h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18 12h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 12h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M8 16h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -29204,6 +29868,119 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="Mop">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 22c2.761 0 5-1.79 5-4-4.42 0-4.08-5-8.5-5a1 1 0 100 9za3 3 0 01-3-3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12.5 11.5 22 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m6.98 13.02 2.665-2.664a1.21 1.21 0 011.71 0l2.29 2.288a1.21 1.21 0 010 1.712l-2.088 2.087">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="MopSparkles">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 22a3 3 0 01-3-3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M10 22c2.761 0 5-1.79 5-4-4.42 0-4.08-5-8.5-5a4.501 4.501 0 000 9z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M10 3H8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12.5 11.5 22 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M20 13v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 15h-4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M4 5v4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 7H2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m6.98 13.02 2.665-2.664a1.21 1.21 0 011.71 0l2.29 2.288a1.21 1.21 0 010 1.712l-2.088 2.087">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9 2v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="Mosque">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12.268 2a2 2 0 003.465 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 5 L14 8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 22v-3a2 2 0 00-4 0v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 13c-.662-1.497-1.666-2.753-2.9-3.63C16.825 8.47 15.422 8 14 8s-2.826.47-4.1 1.37C8.668 10.248 7.663 11.504 7 13z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 9h4">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 22V6a5 5 0 00-2-4 5 5 0 00-2 4v14a2 2 0 002 2h14a2 2 0 002-2v-7">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -30488,12 +31265,12 @@
     <DrawingImage x:Key="Option">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M3 3h6l6 18h6">
+                <GeometryDrawing Geometry="F1 M14 3h7">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14 3h7">
+                <GeometryDrawing Geometry="F1 M3 3h5.28a1 1 0 0 1 .948.684l5.544 16.632a1 1 0 0 0 .949.684H21">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -32859,35 +33636,6 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Podcast">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16.85 18.58a9 9 0 1 0-9.7 0">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 14a5 5 0 1 1 8 0">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="1" RadiusY="1" Center="12,11" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
     <DrawingImage x:Key="Podium">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -34855,6 +35603,27 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="RotateCcwClock">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 3v5h5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 7v5l4 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="RotateCcwKey">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -34919,6 +35688,62 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 M21 3v5h-5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="RotateCwFadingClock">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 3a9.75 9.75 0 0 1 6.74 2.74">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M18.74 5.74 21 8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 8V3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.5 19.794c-6-3.464-6-12.124 0-15.588">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.5 4.206A9 9 0 0 1 12 3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 7v5l4 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M14 20.775A9 9 0 0 1 12 21">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M19 17.656a9 9 0 0 1-1.5 1.456">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 12a9 9 0 0 1-.228 2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 8h-5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -35748,6 +36573,47 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="ScanBox">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 12v5.5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M17 3h2a2 2 0 012 2v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 17v2a2 2 0 01-2 2h-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M3 7V5a2 2 0 012-2h2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 21H5a2 2 0 01-2-2v-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.264 9.252 12 12l4.737-2.748">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7.995 8.514A2 2 0 007 10.244v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0017 13.76v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="ScanEye">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -35974,6 +36840,40 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="ScanSquare">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M3 7V5a2 2 0 0 1 2-2h2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M17 3h2a2 2 0 0 1 2 2v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 17v2a2 2 0 0 1-2 2h-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 21H5a2 2 0 0 1-2-2v-2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="8,8,8,8" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -36725,6 +37625,42 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="ServerPlus">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M16 12h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M19 9v6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 18v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8.5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 18h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M6 6h.01">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="Settings">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -37188,6 +38124,54 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="ShieldKeyhole">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M12 13v3">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 011.52 0C14.51 3.81 17 5 19 5a1 1 0 011 1z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="2" RadiusY="2" Center="12,11" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="ShieldLock">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M20 9.807V6a1 1 0 00-1-1c-2 0-4.49-1.19-6.24-2.72a1.17 1.17 0 00-1.52 0C9.5 3.8 7 5 5 5a1 1 0 00-1 1v7c0 3.88 2.107 6.254 5 7.796">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M19 17v-2a2 2 0 00-4 0v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="1" RadiusY="1" Rect="13,17,8,5" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -38216,83 +39200,6 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
-    <DrawingImage x:Key="Smile">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="10" RadiusY="10" Center="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 14s1.5 2 4 2 4-2 4-2">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,9" EndPoint="9.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="15,9" EndPoint="15.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
-    <DrawingImage x:Key="SmilePlus">
-        <DrawingImage.Drawing>
-            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M22 11v1a10 10 0 1 1-9-10">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M8 14s1.5 2 4 2 4-2 4-2">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,9" EndPoint="9.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="15,9" EndPoint="15.01,9" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 5h6">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M19 2v6">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-            </DrawingGroup>
-        </DrawingImage.Drawing>
-    </DrawingImage>
     <DrawingImage x:Key="Snail">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -39305,89 +40212,35 @@
     <DrawingImage x:Key="SquareBottomDashedScissors">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="5,3" EndPoint="19,3" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="3,5" EndPoint="3,19" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="21,5" EndPoint="21,19" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9,21" EndPoint="10,21" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="14,21" EndPoint="15,21" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M 3 5 A2 2 0 0 1 5 3">
+                <GeometryDrawing Geometry="F1 M14 21h1">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M 19 3 A2 2 0 0 1 21 5">
+                <GeometryDrawing Geometry="F1 m17 17-2.18-2.18">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M 5 21 A2 2 0 0 1 3 19">
+                <GeometryDrawing Geometry="F1 M5 21a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M 21 19 A2 2 0 0 1 19 21">
+                <GeometryDrawing Geometry="F1 M9 21h1">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9.56 14.44 17 7">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="1.5" RadiusY="1.5" Center="8.5,8.5" />
-                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9.56 9.56 12 12">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9.56066,9.56066" EndPoint="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="17,17" EndPoint="14.82,14.82" />
-                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
                 <GeometryDrawing>
                     <GeometryDrawing.Pen>
@@ -39402,7 +40255,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9.56066,14.43934" EndPoint="17,7" />
+                        <EllipseGeometry RadiusX="1.5" RadiusY="1.5" Center="8.5,8.5" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -40031,6 +40884,30 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="SquareDimensions">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 7H7v5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M12 17h5v-5">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="SquareDivide">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -40273,6 +41150,27 @@
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="SquareOff">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M21 15.3V5a2 2 0 00-2-2H8.7">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 22 2 2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -40568,12 +41466,27 @@
     <DrawingImage x:Key="SquareScissors">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 m17 17-2.18-2.18">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9.56 14.44 17 7">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M9.56 9.56 12 12">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
                 <GeometryDrawing>
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
+                        <EllipseGeometry RadiusX="1.5" RadiusY="1.5" Center="8.5,15.5" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
                 <GeometryDrawing>
@@ -40589,31 +41502,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                     <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9.56066,9.56066" EndPoint="12,12" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="17,17" EndPoint="14.82,14.82" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <EllipseGeometry RadiusX="1.5" RadiusY="1.5" Center="8.5,15.5" />
-                    </GeometryDrawing.Geometry>
-                </GeometryDrawing>
-                <GeometryDrawing>
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                    <GeometryDrawing.Geometry>
-                        <LineGeometry StartPoint="9.56066,14.43934" EndPoint="17,7" />
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
@@ -40815,6 +41704,35 @@
                     <GeometryDrawing.Geometry>
                         <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
                     </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="SquareText">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="2" RadiusY="2" Rect="3,3,18,18" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 8h8">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 12h10">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M7 16h6">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -43957,12 +44875,12 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z">
+                <GeometryDrawing Geometry="F1 M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2">
+                <GeometryDrawing Geometry="F1 M17 6a2 2 0 011.414.586l3 3A2 2 0 0122 11v8a2 2 0 01-2 2H4a2 2 0 01-2-2v-8a2 2 0 01.586-1.414l3-3A2 2 0 017 6z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -44764,17 +45682,17 @@
     <DrawingImage x:Key="Trophy">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978">
+                <GeometryDrawing Geometry="F1 M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978">
+                <GeometryDrawing Geometry="F1 M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M18 9h1.5a1 1 0 0 0 0-5H18">
+                <GeometryDrawing Geometry="F1 M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -44789,7 +45707,7 @@
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M6 9H4.5a1 1 0 0 1 0-5H6">
+                <GeometryDrawing Geometry="F1 M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -45502,6 +46420,25 @@
             </DrawingGroup>
         </DrawingImage.Drawing>
     </DrawingImage>
+    <DrawingImage x:Key="UsbCPort">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M6 12h12">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry RadiusX="4" RadiusY="4" Rect="2,8,20,8" />
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
     <DrawingImage x:Key="User">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
@@ -46109,6 +47046,30 @@
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="UserShield">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
+                <GeometryDrawing Geometry="F1 M10 15H6a4 4 0 0 0-4 4v2">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing>
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry RadiusX="4" RadiusY="4" Center="9,7" />
+                    </GeometryDrawing.Geometry>
                 </GeometryDrawing>
             </DrawingGroup>
         </DrawingImage.Drawing>
@@ -48235,7 +49196,7 @@
     <DrawingImage x:Key="Zap">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                <GeometryDrawing Geometry="F1 M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
@@ -48246,22 +49207,22 @@
     <DrawingImage x:Key="ZapOff">
         <DrawingImage.Drawing>
             <DrawingGroup ClipGeometry="M 0,0 L 24,0 24,24 0,24 Z">
-                <GeometryDrawing Geometry="F1 M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317">
+                <GeometryDrawing Geometry="F1 M10.768 5.111 13.44 2.44a1.5 1.5 0 012.474 1.561l-1.633 4.625">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773">
-                    <GeometryDrawing.Pen>
-                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
-                    </GeometryDrawing.Pen>
-                </GeometryDrawing>
-                <GeometryDrawing Geometry="F1 M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643">
+                <GeometryDrawing Geometry="F1 m18.889 13.232.672-.672A1.5 1.5 0 0018.5 10h-2.844">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
                 </GeometryDrawing>
                 <GeometryDrawing Geometry="F1 m2 2 20 20">
+                    <GeometryDrawing.Pen>
+                        <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
+                    </GeometryDrawing.Pen>
+                </GeometryDrawing>
+                <GeometryDrawing Geometry="F1 m7.94 7.94-3.5 3.499A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l5.5-5.5">
                     <GeometryDrawing.Pen>
                         <Pen Brush="Black" Thickness="2" LineCap="Round" LineJoin="Round" />
                     </GeometryDrawing.Pen>
