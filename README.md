@@ -54,7 +54,7 @@ You can customize the appearance of the icons using various properties:
 To regenerate icons from a newer Lucide release, run the included Python script (requires Python 3.10+, no external dependencies):
 
 ```sh
-python tools/generate_icons.py --version <lucide-version>
+dotnet run --project tools -- --version <lucide-version>
 ```
 
 This downloads the Lucide SVGs and regenerates both `LucideAvalonia/Enum/LucideIconNames.cs` and `LucideAvalonia/Lucide/ResourcesIcons.axaml`.
