@@ -58,13 +58,23 @@ public partial class Lucide : UserControl
         set => SetValue(StrokeThicknessProperty, value);
     }
 
+    public static readonly StyledProperty<bool> IsFilledProperty =
+        AvaloniaProperty.Register<Lucide, bool>(nameof(IsFilled));
+
+    public bool IsFilled
+    {
+        get => GetValue(IsFilledProperty);
+        set => SetValue(IsFilledProperty, value);
+    }
+
     protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)
     {
         base.OnPropertyChanged(change);
 
         if (change.Property == IconProperty ||
             change.Property == StrokeBrushProperty ||
-            change.Property == StrokeThicknessProperty)
+            change.Property == StrokeThicknessProperty ||
+            change.Property == IsFilledProperty)
         {
             UpdateIcon();
         }
@@ -110,7 +120,7 @@ public partial class Lucide : UserControl
                 {
                     Geometry = newGeo,
                     Pen = newPen,
-                    Brush = geo.Brush
+                    Brush = IsFilled ? brush : geo.Brush
                 };
 
                 newGroup.Children.Add(newDrawing);
