@@ -5,11 +5,18 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Media;
 using Avalonia.Styling;
 using LucideAvalonia.Enum;
+using System.Collections.Concurrent;
 
 namespace LucideAvalonia;
 
 public partial class Lucide : UserControl
 {
+    private static readonly ConcurrentDictionary<(LucideIconNames Icon, string BrushKey, double Thickness, bool Filled), DrawingImage> CloneCache = new();
+
+    public static event EventHandler? IconsChanged;
+
+    public static void NotifyIconsChanged() => IconsChanged?.Invoke(null, EventArgs.Empty);
+
     public Lucide()
     {
         InitializeComponent();
@@ -80,13 +87,37 @@ public partial class Lucide : UserControl
         }
     }
 
+    protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
+    {
+        base.OnAttachedToVisualTree(e);
+        IconsChanged += OnIconsChanged;
+        UpdateIcon();
+    }
+
+    protected override void OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs e)
+    {
+        IconsChanged -= OnIconsChanged;
+        base.OnDetachedFromVisualTree(e);
+    }
+
+    private void OnIconsChanged(object? sender, EventArgs e) => UpdateIcon();
+
     private void UpdateIcon()
     {
         var key = Icon.ToString();
         if (Application.Current?.TryGetResource(key, ThemeVariant.Default, out var value) == true &&
             value is DrawingImage drawing)
         {
-            IconSource = CloneDrawing(drawing);
+            if (StrokeBrush is null && StrokeThickness <= 0 && !IsFilled)
+            {
+                IconSource = drawing;
+                return;
+            }
+
+            string brushKey = StrokeBrush?.ToString() ?? string.Empty;
+            IconSource = CloneCache.GetOrAdd(
+                (Icon, brushKey, StrokeThickness, IsFilled),
+                _ => CloneDrawing(drawing));
         }
         else
         {
