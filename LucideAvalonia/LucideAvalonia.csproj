@@ -9,7 +9,6 @@
 
   <!-- NuGet package information -->
   <PropertyGroup>
-    <PackageIcon>icon.png</PackageIcon>
     <Title>LucideAvalonia</Title>
     <Authors>Marwan</Authors>
     <Description>A library for AvaloniaUI that integrates Lucide icons into your Avalonia applications.</Description>
@@ -19,19 +18,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>LucideAvalonia</PackageId>
     <Version>1.6.2</Version>
-    <PackageTags>avalonia;icons;icon;ui;lucide;avaloniaui</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
 	<PackageReference Include="Avalonia" Version="12.0.5" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="icon.png">
-      <Pack>True</Pack>
-      <PackagePath>icon.png</PackagePath>
-    </None>
-  </ItemGroup>
-
 </Project>
