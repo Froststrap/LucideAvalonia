@@ -9,7 +9,7 @@
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <NoWarn>$(NoWarn);CA1416;CA2007</NoWarn>
+    <NoWarn>$(NoWarn);CA1416;CA2007;FS3261</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,4 +17,3 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
-

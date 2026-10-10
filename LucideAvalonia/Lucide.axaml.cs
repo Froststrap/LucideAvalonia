@@ -3,20 +3,12 @@ using Avalonia.Controls;
 using Avalonia.Data;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
-using Avalonia.Styling;
 using LucideAvalonia.Enum;
-using System.Collections.Concurrent;
 
 namespace LucideAvalonia;
 
 public partial class Lucide : UserControl
 {
-    private static readonly ConcurrentDictionary<(LucideIconNames Icon, string BrushKey, double Thickness, bool Filled), DrawingImage> CloneCache = new();
-
-    public static event EventHandler? IconsChanged;
-
-    public static void NotifyIconsChanged() => IconsChanged?.Invoke(null, EventArgs.Empty);
-
     public Lucide()
     {
         InitializeComponent();
@@ -87,81 +79,10 @@ public partial class Lucide : UserControl
         }
     }
 
-    protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
-    {
-        base.OnAttachedToVisualTree(e);
-        IconsChanged += OnIconsChanged;
-        UpdateIcon();
-    }
-
-    protected override void OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs e)
-    {
-        IconsChanged -= OnIconsChanged;
-        base.OnDetachedFromVisualTree(e);
-    }
-
-    private void OnIconsChanged(object? sender, EventArgs e) => UpdateIcon();
-
     private void UpdateIcon()
     {
-        var key = Icon.ToString();
-        if (Application.Current?.TryGetResource(key, ThemeVariant.Default, out var value) == true &&
-            value is DrawingImage drawing)
-        {
-            if (StrokeBrush is null && StrokeThickness <= 0 && !IsFilled)
-            {
-                IconSource = drawing;
-                return;
-            }
-
-            string brushKey = StrokeBrush?.ToString() ?? string.Empty;
-            IconSource = CloneCache.GetOrAdd(
-                (Icon, brushKey, StrokeThickness, IsFilled),
-                _ => CloneDrawing(drawing));
-        }
-        else
-        {
-            IconSource = null;
-        }
-    }
-
-    private DrawingImage CloneDrawing(DrawingImage original)
-    {
-        if (original.Drawing is not DrawingGroup originalGroup)
-            return original;
-
-        var newGroup = new DrawingGroup();
-        foreach (var child in originalGroup.Children)
-        {
-            if (child is GeometryDrawing geo)
-            {
-                var newGeo = geo.Geometry?.Clone();
-                if (newGeo == null) continue;
-
-                var brush = StrokeBrush ?? Brushes.Black;
-                var thickness = StrokeThickness > 0 ? StrokeThickness : (geo.Pen?.Thickness ?? 2);
-                var dashStyle = geo.Pen?.DashStyle;
-                var lineCap = geo.Pen?.LineCap ?? PenLineCap.Round;
-                var lineJoin = geo.Pen?.LineJoin ?? PenLineJoin.Round;
-                var miterLimit = geo.Pen?.MiterLimit ?? 10;
-
-                var newPen = new Pen(brush, thickness, dashStyle, lineCap, lineJoin, miterLimit);
-
-                var newDrawing = new GeometryDrawing
-                {
-                    Geometry = newGeo,
-                    Pen = newPen,
-                    Brush = IsFilled ? brush : geo.Brush
-                };
-
-                newGroup.Children.Add(newDrawing);
-            }
-            else
-            {
-                newGroup.Children.Add(child);
-            }
-        }
-
-        return new DrawingImage(newGroup);
+        // LucideIconRegistry caches parsed geometries per icon, so this is
+        // cheap to call repeatedly. No global dictionary, no IconsChanged event.
+        IconSource = LucideIconRegistry.Build(Icon, StrokeBrush, StrokeThickness, IsFilled);
     }
 }

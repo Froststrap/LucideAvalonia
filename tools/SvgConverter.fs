@@ -13,19 +13,8 @@ module SvgConverter =
         | false, _ -> elementCounts.[tag] <- 1
 
     let parsePoints (pointsStr: string) : (string * string) list =
-        let nums = pointsStr.Replace(",", " ").Split([|' '|], StringSplitOptions.RemoveEmptyEntries)
+        let nums = pointsStr.Replace(",", " ").Split([| ' ' |], StringSplitOptions.RemoveEmptyEntries)
         [ for i in 0..2..(nums.Length - 2) -> nums.[i], nums.[i + 1] ]
-
-    let escapeXmlAttr (s: string) : string =
-        s.Replace("&", "&amp;")
-         .Replace("\"", "&quot;")
-         .Replace("<", "&lt;")
-         .Replace(">", "&gt;")
-
-    let penXml =
-        "                    <GeometryDrawing.Pen>\n"
-        + "                        <Pen Brush=\"Black\" Thickness=\"2\" LineCap=\"Round\" LineJoin=\"Round\" />\n"
-        + "                    </GeometryDrawing.Pen>"
 
     let attrOpt (elem: XElement) (name: string) : string option =
         match elem.Attribute(XName.Get name) with
@@ -35,7 +24,15 @@ module SvgConverter =
     let attrDef (elem: XElement) (name: string) (def: string) : string =
         defaultArg (attrOpt elem name) def
 
-    let convertElement (elem: XElement) : string option =
+    /// Structured representation of a single SVG drawing element.
+    type Shape =
+        | Path     of data: string
+        | Circle   of cx: string * cy: string * r: string
+        | Ellipse  of cx: string * cy: string * rx: string * ry: string
+        | Rect     of x: string * y: string * w: string * h: string * rx: string * ry: string
+        | Line     of x1: string * y1: string * x2: string * y2: string
+
+    let convertElement (elem: XElement) : Shape option =
         let tag = elem.Name.LocalName
         trackStat tag
 
@@ -43,13 +40,11 @@ module SvgConverter =
         | "path" ->
             let d = attrDef elem "d" ""
             if String.IsNullOrEmpty d then None
-            else
-                let geom = escapeXmlAttr ("F1 " + d)
-                Some (sprintf "                <GeometryDrawing Geometry=\"%s\">\n%s\n                </GeometryDrawing>" geom penXml)
+            else Some (Path d)
 
         | "circle" ->
             let cx, cy, r = attrDef elem "cx" "0", attrDef elem "cy" "0", attrDef elem "r" "0"
-            Some (sprintf "                <GeometryDrawing>\n%s\n                    <GeometryDrawing.Geometry>\n                        <EllipseGeometry RadiusX=\"%s\" RadiusY=\"%s\" Center=\"%s,%s\" />\n                    </GeometryDrawing.Geometry>\n                </GeometryDrawing>" penXml r r cx cy)
+            Some (Circle(cx, cy, r))
 
         | "ellipse" ->
             let cx, cy = attrDef elem "cx" "0", attrDef elem "cy" "0"
@@ -59,7 +54,7 @@ module SvgConverter =
                 | Some rx, None -> rx, rx
                 | None, Some ry -> ry, ry
                 | _ -> defaultArg rxOpt "0", defaultArg ryOpt "0"
-            Some (sprintf "                <GeometryDrawing>\n%s\n                    <GeometryDrawing.Geometry>\n                        <EllipseGeometry RadiusX=\"%s\" RadiusY=\"%s\" Center=\"%s,%s\" />\n                    </GeometryDrawing.Geometry>\n                </GeometryDrawing>" penXml rx ry cx cy)
+            Some (Ellipse(cx, cy, rx, ry))
 
         | "rect" ->
             let x, y = attrDef elem "x" "0", attrDef elem "y" "0"
@@ -70,12 +65,12 @@ module SvgConverter =
                 | Some rx, None -> rx, rx
                 | None, Some ry -> ry, ry
                 | _ -> defaultArg rxOpt "0", defaultArg ryOpt "0"
-            Some (sprintf "                <GeometryDrawing>\n%s\n                    <GeometryDrawing.Geometry>\n                        <RectangleGeometry RadiusX=\"%s\" RadiusY=\"%s\" Rect=\"%s,%s,%s,%s\" />\n                    </GeometryDrawing.Geometry>\n                </GeometryDrawing>" penXml rx ry x y w h)
+            Some (Rect(x, y, w, h, rx, ry))
 
         | "line" ->
             let x1, y1 = attrDef elem "x1" "0", attrDef elem "y1" "0"
             let x2, y2 = attrDef elem "x2" "0", attrDef elem "y2" "0"
-            Some (sprintf "                <GeometryDrawing>\n%s\n                    <GeometryDrawing.Geometry>\n                        <LineGeometry StartPoint=\"%s,%s\" EndPoint=\"%s,%s\" />\n                    </GeometryDrawing.Geometry>\n                </GeometryDrawing>" penXml x1 y1 x2 y2)
+            Some (Line(x1, y1, x2, y2))
 
         | "polyline" ->
             let points = parsePoints (attrDef elem "points" "")
@@ -86,8 +81,7 @@ module SvgConverter =
                     List.fold (fun acc (px, py) -> acc + sprintf " L%s %s" px py)
                         (sprintf "M%s %s" (fst first) (snd first))
                         (List.tail points)
-                let geom = escapeXmlAttr ("F1 " + pathData)
-                Some (sprintf "                <GeometryDrawing Geometry=\"%s\">\n%s\n                </GeometryDrawing>" geom penXml)
+                Some (Path pathData)
 
         | "polygon" ->
             let points = parsePoints (attrDef elem "points" "")
@@ -97,10 +91,8 @@ module SvgConverter =
                 let pathData =
                     List.fold (fun acc (px, py) -> acc + sprintf " L%s %s" px py)
                         (sprintf "M%s %s" (fst first) (snd first))
-                        (List.tail points)
-                    + " Z"
-                let geom = escapeXmlAttr ("F1 " + pathData)
-                Some (sprintf "                <GeometryDrawing Geometry=\"%s\">\n%s\n                </GeometryDrawing>" geom penXml)
+                        (List.tail points) + " Z"
+                Some (Path pathData)
 
         | _ -> None
 
@@ -116,7 +108,7 @@ module SvgConverter =
                     yield child
         ]
 
-    let parseSvg (filepath: string) : string list =
+    let parseSvg (filepath: string) : Shape list =
         let doc = XDocument.Load(filepath)
         match doc.Root with
         | null -> []
