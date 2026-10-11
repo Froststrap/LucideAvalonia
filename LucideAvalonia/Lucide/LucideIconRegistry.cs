@@ -11,14 +11,21 @@ namespace LucideAvalonia;
 internal static class LucideIconRegistry
 {
     private static readonly ConcurrentDictionary<LucideIconNames, Geometry[]> GeometryCache = new();
+    private static readonly ConcurrentDictionary<string, Geometry[]> SvgCache = new(StringComparer.Ordinal);
 
     public static DrawingImage? Build(
-        LucideIconNames name,
+        LucideIconSource? source,
         IBrush? brush,
         double thickness,
         bool filled)
     {
-        var geometries = GetGeometries(name);
+        if (source is null)
+            return null;
+
+        var geometries = source.IsSvg
+            ? ParseSvg(source.SvgPath!)
+            : GetGeometries(source.Name!.Value);
+
         if (geometries.Length == 0)
             return null;
 
@@ -51,4 +58,17 @@ internal static class LucideIconRegistry
 
     private static Geometry[] GetGeometries(LucideIconNames name)
         => GeometryCache.GetOrAdd(name, static n => LucideIconData.Get(n) ?? []);
+
+    private static Geometry[] ParseSvg(string pathData)
+        => SvgCache.GetOrAdd(pathData, static data =>
+        {
+            try
+            {
+                return [Geometry.Parse(data)];
+            }
+            catch
+            {
+                return [];
+            }
+        });
 }

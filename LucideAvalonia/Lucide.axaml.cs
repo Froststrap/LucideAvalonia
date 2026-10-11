@@ -28,10 +28,10 @@ public partial class Lucide : UserControl
         set => SetValue(IconSourceProperty, value);
     }
 
-    public static readonly StyledProperty<LucideIconNames> IconProperty =
-        AvaloniaProperty.Register<Lucide, LucideIconNames>("Icon");
+    public static readonly StyledProperty<object?> IconProperty =
+        AvaloniaProperty.Register<Lucide, object?>("Icon");
 
-    public LucideIconNames Icon
+    public object? Icon
     {
         get => GetValue(IconProperty);
         set => SetValue(IconProperty, value);
@@ -81,8 +81,18 @@ public partial class Lucide : UserControl
 
     private void UpdateIcon()
     {
-        // LucideIconRegistry caches parsed geometries per icon, so this is
-        // cheap to call repeatedly. No global dictionary, no IconsChanged event.
-        IconSource = LucideIconRegistry.Build(Icon, StrokeBrush, StrokeThickness, IsFilled);
+        IconSource = LucideIconRegistry.Build(Resolve(Icon), StrokeBrush, StrokeThickness, IsFilled);
     }
+
+    private static LucideIconSource? Resolve(object? value) => value switch
+    {
+        null => null,
+        LucideIconSource source => source,
+        LucideIconNames name => LucideIconSource.FromName(name),
+        string s when !string.IsNullOrWhiteSpace(s) =>
+            System.Enum.TryParse<LucideIconNames>(s, ignoreCase: true, out var parsed)
+                ? LucideIconSource.FromName(parsed)
+                : LucideIconSource.FromSvg(s),
+        _ => null,
+    };
 }
