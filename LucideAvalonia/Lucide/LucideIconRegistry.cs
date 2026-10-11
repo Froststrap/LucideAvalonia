@@ -4,10 +4,6 @@ using LucideAvalonia.Enum;
 
 namespace LucideAvalonia;
 
-/// <summary>
-/// Builds Lucide icons on demand. Geometry parsing is deferred until an icon
-/// is first requested and then cached for the lifetime of the process.
-/// </summary>
 internal static class LucideIconRegistry
 {
     private static readonly ConcurrentDictionary<LucideIconNames, Geometry[]> GeometryCache = new();
@@ -30,20 +26,20 @@ internal static class LucideIconRegistry
             return null;
 
         var effectiveBrush = brush ?? Brushes.Black;
-        if (thickness <= 0)
-            thickness = 2;
 
         var group = new DrawingGroup();
         var children = group.Children;
 
         foreach (var geometry in geometries)
         {
-            var pen = new Pen(effectiveBrush, thickness)
-            {
-                LineCap = PenLineCap.Round,
-                LineJoin = PenLineJoin.Round,
-                MiterLimit = 10,
-            };
+            var pen = thickness > 0
+                ? new Pen(effectiveBrush, thickness)
+                {
+                    LineCap = PenLineCap.Round,
+                    LineJoin = PenLineJoin.Round,
+                    MiterLimit = 10,
+                }
+                : null;
 
             children.Add(new GeometryDrawing
             {
@@ -62,6 +58,9 @@ internal static class LucideIconRegistry
     private static Geometry[] ParseSvg(string pathData)
         => SvgCache.GetOrAdd(pathData, static data =>
         {
+            if (string.IsNullOrWhiteSpace(data))
+                return [];
+
             try
             {
                 return [Geometry.Parse(data)];

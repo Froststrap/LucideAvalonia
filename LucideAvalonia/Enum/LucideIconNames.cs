@@ -14,7 +14,6 @@ namespace LucideAvalonia.Enum;
 /// The TypeConverter enables XAML string literals (Icon="Play") to bind
 /// directly to nullable LucideIconNames properties.
 /// </summary>
-[TypeConverter(typeof(LucideIconNamesConverter))]
 public enum LucideIconNames
 {
     AArrowDown,
@@ -1894,21 +1893,4 @@ public enum LucideIconNames
     ZodiacVirgo,
     ZoomIn,
     ZoomOut
-}
-
-/// <summary>
-/// Converts string XAML attribute values into LucideIconNames. Case-insensitive
-/// so Icon="play" and Icon="Play" both work.
-/// </summary>
-public sealed class LucideIconNamesConverter : TypeConverter
-{
-    public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType)
-        => sourceType == typeof(string) || base.CanConvertFrom(context, sourceType);
-
-    public override object? ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value)
-    {
-        if (value is string s && System.Enum.TryParse<LucideIconNames>(s, ignoreCase: true, out var result))
-            return result;
-        return base.ConvertFrom(context, culture, value);
-    }
 }
