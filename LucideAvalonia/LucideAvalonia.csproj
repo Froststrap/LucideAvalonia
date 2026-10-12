@@ -13,10 +13,10 @@
     <Authors>Marwan</Authors>
     <Description>A library for AvaloniaUI that integrates Lucide icons into your Avalonia applications.</Description>
     <Copyright>Marwan</Copyright>
-    <PackageProjectUrl>https://github.com/MarwanFr/LucideAvaloniaUI/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MarwanFr/LucideAvaloniaUI/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Froststrap/LucideAvalonia</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Froststrap/LucideAvalonia</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>LucideAvalonia</PackageId>
+    <PackageId>Froststrap.LucideAvalonia</PackageId>
     <Version>1.6.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
