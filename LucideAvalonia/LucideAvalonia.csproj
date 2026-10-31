@@ -17,9 +17,16 @@
     <RepositoryUrl>https://github.com/Froststrap/LucideAvalonia</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Froststrap.LucideAvalonia</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Version>1.6.2</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="../README.md"
+            Pack="true"
+            PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
   	<PackageReference Include="Avalonia" Version="12.1.3" />
