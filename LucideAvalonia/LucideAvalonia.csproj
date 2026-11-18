@@ -9,24 +9,18 @@
 
   <!-- NuGet package information -->
   <PropertyGroup>
-    <Title>LucideAvalonia</Title>
-    <Authors>Marwan</Authors>
-    <Description>A library for AvaloniaUI that integrates Lucide icons into your Avalonia applications.</Description>
-    <Copyright>Marwan</Copyright>
+    <Authors>Froststrap; Invra</Authors>
+    <Description>A fork of library https://github.com/MarwanFr/LucideAvaloniaUI for better internal tooling for Froststrap usage.</Description>
+    <Copyright>Froststrap</Copyright>
     <PackageProjectUrl>https://github.com/Froststrap/LucideAvalonia</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Froststrap/LucideAvalonia</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Froststrap.LucideAvalonia</PackageId>
+    <PackageTags>icons;avalonia;ui;user-interface;aot;dotnet10</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.6.2</Version>
+    <Version>2.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
-  <ItemGroup>
-      <None Include="../README.md"
-            Pack="true"
-            PackagePath="\" />
-  </ItemGroup>
 
   <ItemGroup>
   	<PackageReference Include="Avalonia" Version="12.1.3" />

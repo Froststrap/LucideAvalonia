@@ -4,7 +4,7 @@
 
 ![Lucide Icons for AvaloniaUI](https://raw.githubusercontent.com/MarwanFr/LucideAvaloniaUI/main/image/Banner.webp)
 
-## Over 1690 icons for AvaloniaUI
+## A collection of Lucide Icons for AvaloniaUI
 
 ### What is it?
 
@@ -93,3 +93,4 @@ This project is made possible thanks to the following:
 
 - [AvaloniaUI](https://www.avaloniaui.net): The versatile and powerful UI framework.
 - [Lucide](https://www.lucide.dev): The source of these beautifully designed icons.
+- [LucideAvaloniaUI](https://github.com/MarwanFr/LucideAvaloniaUI): Giving a heavy start to branch off of to improve and make our app experience better.
