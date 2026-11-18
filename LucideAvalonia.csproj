@@ -18,7 +18,7 @@
     <PackageId>Froststrap.LucideAvalonia</PackageId>
     <PackageTags>icons;avalonia;ui;user-interface;aot;dotnet10</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
