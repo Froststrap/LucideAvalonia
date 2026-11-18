@@ -1,8 +1,8 @@
 # Lucide Icons for AvaloniaUI
-[![NuGet Version](https://img.shields.io/nuget/v/LucideAvalonia)](https://www.nuget.org/packages/LucideAvalonia)
-[![GitHub License](https://img.shields.io/github/license/MarwanFr/LucideAvaloniaUI)](https://github.com/MarwanFr/LucideAvaloniaUI/blob/main/LICENSE)
+[![NuGet Version](https://img.shields.io/nuget/v/Froststrap.LucideAvalonia)](https://www.nuget.org/packages/Froststrap.LucideAvalonia)
+[![GitHub License](https://img.shields.io/github/license/Froststrap/LucideAvalonia)](https://github.com/Froststrap/LucideAvalonia/blob/main/LICENSE)
 
-![Lucide Icons for AvaloniaUI](https://raw.githubusercontent.com/MarwanFr/LucideAvaloniaUI/main/image/Banner.webp)
+![Lucide Icons for AvaloniaUI](./image/Banner.webp)
 
 ## A collection of Lucide Icons for AvaloniaUI
 
@@ -26,7 +26,7 @@ This library is ideal for:
 To install the library, you can use NuGet with the following command:
 
 ```sh
-dotnet add package LucideAvalonia
+dotnet add package Froststrap.LucideAvalonia
 ```
 
 ### Usage
