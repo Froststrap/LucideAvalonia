@@ -201,8 +201,8 @@ public enum LucideIconNames
 
         let defaultOutput =
             match parentDir with
-            | null -> Path.Combine(scriptDir, "LucideAvalonia")
-            | p -> Path.Combine(p.FullName, "LucideAvalonia")
+            | null -> scriptDir
+            | p -> p.FullName
 
         let outputDir = defaultArg args.OutputDir defaultOutput
 

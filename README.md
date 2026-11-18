@@ -57,7 +57,7 @@ To regenerate icons from a newer Lucide release, run the included Python script 
 dotnet run --project tools -- --version <lucide-version>
 ```
 
-This downloads the Lucide SVGs and regenerates both `LucideAvalonia/Enum/LucideIconNames.cs` and `LucideAvalonia/Lucide/ResourcesIcons.axaml`.
+This downloads the Lucide SVGs and regenerates both `Enum/LucideIconNames.cs` and `Lucide/LucideIconData.g.cs`.
 
 ### Contribution
 
